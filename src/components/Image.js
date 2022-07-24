@@ -38,9 +38,9 @@ export default class Image extends React.Component {
   render_images() {
     const { images } = this.state;
     return images.map((image) => (
-      <li key={image.date}>
-        <img src={image.hdurl} alt={image.explanation}></img>
-      </li>
+      <p key={image.date}>
+        <img className="w-80" src={image.hdurl} alt={image.explanation}></img>
+      </p>
     ));
   }
 

@@ -1,6 +1,6 @@
 #![cfg_attr(
-  all(not(debug_assertions), target_os = "linux"),
-  linux_subsystem = "linux"
+  all(not(debug_assertions), target_os = "windows"),
+  windows_subsystem = "windows"
 )]
 
 fn main() {
